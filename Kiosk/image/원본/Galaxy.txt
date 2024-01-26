@@ -1,0 +1,6 @@
+galaxy_S21_Utra
+galaxy_S21
+galaxy_S22_Utra
+galaxy_S22
+galaxy_Fold
+galaxy_Flip
