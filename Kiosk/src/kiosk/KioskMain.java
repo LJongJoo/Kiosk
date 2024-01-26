@@ -18,7 +18,7 @@ import java.util.Enumeration;
 import java.util.StringTokenizer;
 
 public class KioskMain extends JFrame {
-    private static final String CSV_FILE_PATH = "C:\\Users\\J J\\Desktop\\yalco\\receipt.csv";
+    private static final String CSV_FILE_PATH = "C:\\Users\\J J\\Desktop\\Kiosk\\receipt.csv";
     DefaultTableModel tableModel;
     int lineCount = 0;//패널이 몇개 생성되어야 할 지 개수를 세주는 변수
     IPhone[] deviceIPhone;
@@ -31,7 +31,7 @@ public class KioskMain extends JFrame {
     JButton iphoneButton, ipadButton, galaxyButton, galaxyPadButton,otherButton;
     Font font = new Font("맑은 고딕", Font.BOLD, 20);
     String[] fileName = {"IPhone","IPad","Galaxy","GalaxyPad","Other"};
-    String filePath = "C:\\Users\\J J\\Desktop\\yalco\\java-prac\\image\\";
+    String filePath = "C:\\Users\\J J\\Desktop\\Kiosk\\Kiosk\\image\\";
 
     JRadioButton[] storage = new JRadioButton[3];
     JRadioButton[] color = new JRadioButton[6];
